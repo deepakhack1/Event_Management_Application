@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eventManagement
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/eventdb
+#    username: dbuser
+#    password: dbpass
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
